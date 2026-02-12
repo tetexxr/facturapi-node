@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
+## [4.13.1] 2026-02-11
+
+### Fixed
+
+- Fix `organizations.uploadLogo` and `organizations.uploadCertificate` in Node.js 18 by avoiding `File` constructor usage during upload preparation.
+
+### Changed
+
+- Update declared Node.js engine requirement to `>=18.0.0` to match runtime dependencies.
+
 ## [4.13.0] 2026-02-06
 
 ### Added
